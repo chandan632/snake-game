@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/level3.css">
+</head>
+
+<body>
+    <h1 class="text-center text-light mb-3 border-bottom">Level 3</h1>
+    <div class="container d-flex justify-content-around align-content-center">
+        <div class="row">
+            <div class="com-md-9 text-center mr-5 mt-md-none">
+                <h1 id="score" class="text-light">Score : 0</h1>
+                <span class="text-light font-weight-bold" id="time">Time : 00</span>
+                <div class="main">
+                    <canvas width="420" height="420" style="border: 3px groove rgb(0, 255, 21)"></canvas>
+                </div>
+                <button class="btn btn-danger mt-3 py-2 px-3 pause">Pause</button>
+                <button class="btn btn-danger mt-3 py-2 px-3 resume">Resume</button>
+            </div>
+            <div class="com-md-3 text-center">
+                <h1 class="text-light">Access Key</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="text-light">Desc</th>
+                            <th class="text-light">Key</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-light">Pause</td>
+                            <td class="text-light">Space</td>
+                        </tr>
+                        <tr>
+                            <td class="text-light">Resume</td>
+                            <td class="text-light">Enter</td>
+                        </tr>
+                        <tr>
+                            <td class="text-light">Left</td>
+                            <td class="text-light">Left Arrow Key</td>
+                        </tr>
+                        <tr>
+                            <td class="text-light">Right</td>
+                            <td class="text-light">Right Arrow Key</td>
+                        </tr>
+                        <tr>
+                            <td class="text-light">Up</td>
+                            <td class="text-light">Up Arrow Key</td>
+                        </tr>
+                        <tr>
+                            <td class="text-light">Down</td>
+                            <td class="text-light">Down Arrow Key</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./js/level3.js"></script>
+</body>
+
+</html>
